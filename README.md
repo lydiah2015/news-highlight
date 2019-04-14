@@ -3,7 +3,7 @@ News Highlight
 
 **Author**: [Lydia Mitchelle Makini](https://github.com/lydiah2015)
 ## Description
-[News Highlight](link-to-repo) is a web appliction that displays a list of entertainment news sources from around the world. A user is able to click on a news source and view a list of articles from that source. Clicking on the news article will then redirect you to the news article's web page.
+[News Highlight](:https://github.com/lydiah2015/news-highlight.git) is a web appliction that displays a list of entertainment news sources from around the world. A user is able to click on a news source and view a list of articles from that source. Clicking on the news article will then redirect you to the news article's web page.
 
 ## Installation
 
@@ -12,7 +12,7 @@ News Highlight
 
 ### Cloning the repository
 ```bash
-git clone link-to-repo && cd news-highlight
+git clone :https://github.com/lydiah2015/news-highlight.git && cd news-highlight
 ```
 
 ### Creating a virtual environment
@@ -60,7 +60,7 @@ git push heroku master
 ## Live Demo
 
 The web app can be accessed from the following link
-[link-to-heroku](link-to-heroku)
+[https://entertainment-news-highlight.herokuapp.com/](https://entertainment-news-highlight.herokuapp.com/)
 
 ## Technology used
 
