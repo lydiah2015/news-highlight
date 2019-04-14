@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    {{ super()}}
+    <div class="container card-columns">
+        {% if sources %}
+            {% for source in sources %}
+                <div class="card">
+                    <div class="card-header">
+                        <a href="/articles/{{source.id}}">
+                            {{source.name}}
+                        </a>
+                    </div>
+                    <div class="card-body">{{source.description}}</div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+{% endblock %}
